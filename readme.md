@@ -3,7 +3,7 @@
 A cross-platform app starting point with React JS.
 
 ## Installation (dev)
-	npm install -g electron-packager
+	npm install -g electron-packager sass
 	yarn install
 
 ## Compile and Run (dev)
