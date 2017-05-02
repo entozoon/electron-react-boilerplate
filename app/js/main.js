@@ -25,7 +25,7 @@ const createWindow = () => {
   }));
 
   // Open devtools
-  //mainWindow.webContents.openDevTools();
+  mainWindow.webContents.openDevTools();
 
   // Exit
   mainWindow.on('closed', function() {
