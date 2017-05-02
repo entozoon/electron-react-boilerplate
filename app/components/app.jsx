@@ -41,10 +41,10 @@ class Tinker extends React.Component {
 class AppComponent extends React.Component {
   render () {
     return (
-        <div>
-          <Tinker name="Hail who?" />
-          <Tinker name="Hail whom?" value="Satan" />
-        </div>
+      <div>
+        <Tinker name="Hail who?" />
+        <Tinker name="Hail whom?" value="Satan" />
+      </div>
     );
   }
 }
