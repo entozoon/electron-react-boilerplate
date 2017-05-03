@@ -6,7 +6,7 @@
   "scripts": {
     "refresh": "electron .",
     "dev": "npm-watch | npm run sass",
-    "sass": "sass app/css/app.scss:app/css/app.css --style compressed --watch \"app/css/app.scss\"",
+    "sass": "node-sass app/scss/app.scss -o app/css/app.css --style compressed --watch \"app/scss/**/*.scss\"",
     "erm": "electron -r babel-register .",
     "dist": "electron-packager . --out=dist --overwrite --version-string.FileDescription=electron-app-template"
   },
